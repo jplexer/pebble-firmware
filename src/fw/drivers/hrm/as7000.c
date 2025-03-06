@@ -46,6 +46,7 @@
 // Enable this to get some very verbose logs about collecting PPG data from the HRM
 // Bump this up to 2 to get very verbose logs
 #define PPG_DEBUG 0
+#define HRM_FORCE_FLASH 1  // Add this line to force flashing on boot
 
 #if PPG_DEBUG
 #define PPG_DBG(...) \
@@ -970,65 +971,86 @@ void hrm_init(HRMDevice *dev) {
           HRM_SW_VERSION_PART_MINOR(image_header.sw_version_major),
           image_header.sw_version_minor);
 
-  // Now that we know what version the image is, actually boot up the
-  // HRM so we can read off the version.
-
-  PBL_LOG(LOG_LEVEL_DEBUG, "Booting AS7000...");
-
-  gpio_output_init(&dev->en_gpio, GPIO_OType_PP, GPIO_Speed_2MHz);
-#if HRM_FORCE_FLASH
-  // Force the HRM into loader mode which will cause the firmware to be
-  // reflashed on every boot. If the HRM is loaded with a broken
-  // firmware which doesn't enter standby when the enable pin is high,
-  // the board will need to be power-cycled (entering standby/shutdown
-  // is sufficient) in order to get force-flashing to succeed.
-  gpio_output_set(&dev->en_gpio, false);
-  psleep(50);
-  gpio_output_set(&dev->en_gpio, true);
-  psleep(20);
-  gpio_output_set(&dev->en_gpio, false);
-  psleep(20);
-#else
-  gpio_output_set(&dev->en_gpio, true);
-  psleep(NORMAL_BOOT_DELAY_MS);
-#endif
-
+  // Define maximum number of retry attempts
+  #define MAX_FLASH_RETRIES 20
+  int retry_count = 0;
+  bool flash_success = false;
   AS7000InfoRecord hrm_info;
-  if (!prv_get_and_log_device_info(dev, &hrm_info, true /* log_version */)) {
-    PBL_LOG(LOG_LEVEL_ERROR, "Failed to read AS7000 version info!");
-    goto cleanup;
-  }
-
-  if (hrm_info.application_id == AS7000AppId_Loader ||
-      hrm_info.sw_version_major != image_header.sw_version_major ||
-      hrm_info.sw_version_minor != image_header.sw_version_minor) {
-    // We technically could leave the firmware on the HRM alone if the
-    // minor version in the chip is newer than in the update image, but
-    // for sanity's sake let's always make sure the HRM firmware is in
-    // sync with the version shipped with the Pebble firmware.
-    PBL_LOG(LOG_LEVEL_DEBUG, "AS7000 firmware version mismatch. Flashing...");
-    if (!prv_flash_fw(dev)) {
-      PBL_LOG(LOG_LEVEL_ERROR, "Failed to flash firmware");
-      goto cleanup;
+  
+  // Keep trying until we succeed or reach maximum retries
+  while (!flash_success && retry_count < MAX_FLASH_RETRIES) {
+    if (retry_count > 0) {
+      PBL_LOG(LOG_LEVEL_WARNING, "Retrying HRM flash attempt %d of %d", 
+              retry_count + 1, MAX_FLASH_RETRIES);
+      // Power cycle the device between attempts
+      gpio_output_set(&dev->en_gpio, false);
+      psleep(100);  // Wait for device to fully power down
     }
+    
+    PBL_LOG(LOG_LEVEL_DEBUG, "Booting AS7000...");
+    
+    gpio_output_init(&dev->en_gpio, GPIO_OType_PP, GPIO_Speed_2MHz);
+    
+    // Force the HRM into loader mode which will cause the firmware to be reflashed
+    gpio_output_set(&dev->en_gpio, false);
+    psleep(50);
+    gpio_output_set(&dev->en_gpio, true);
+    psleep(20);
+    gpio_output_set(&dev->en_gpio, false);
+    psleep(20);
+    
+    // Try again with longer delay if needed on retry attempts
+    if (retry_count > 0) {
+      psleep(50);
+    }
+    
+    gpio_output_set(&dev->en_gpio, true);
+    psleep(NORMAL_BOOT_DELAY_MS + (retry_count * 50));  // Add extra delay on retries
+    
+    // Try to read the device info - this verifies communication
+    bool got_info = prv_get_and_log_device_info(dev, &hrm_info, true /* log_version */);
+    if (!got_info) {
+      PBL_LOG(LOG_LEVEL_ERROR, "Failed to read AS7000 version info! (Attempt %d)", 
+              retry_count + 1);
+      retry_count++;
+      continue;  // Try again
+    }
+    
+    // Always flash regardless of version comparison
+    PBL_LOG(LOG_LEVEL_DEBUG, "Force flashing AS7000 firmware...");
+    if (!prv_flash_fw(dev)) {
+      PBL_LOG(LOG_LEVEL_ERROR, "Failed to flash firmware (Attempt %d)", 
+              retry_count + 1);
+      retry_count++;
+      continue;  // Try again
+    }
+    
     // We need to wait for the HRM to reboot into the application before
-    // releasing the enable GPIO. If the loader sees the GPIO released
-    // during boot, it will activate "force loader mode" and fall back
-    // into the loader. Since we're waiting anyway, we might as well
-    // query the version info again to make sure the update took.
+    // releasing the enable GPIO.
     PBL_LOG(LOG_LEVEL_DEBUG, "Firmware flashed! Waiting for reboot...");
     gpio_output_set(&dev->en_gpio, true);
     psleep(LOADER_REBOOT_DELAY_MS);
+    
+    // Verify we can still communicate and read version info
     if (!prv_get_and_log_device_info(dev, &hrm_info, true /* log_version */)) {
-      PBL_LOG(LOG_LEVEL_ERROR,
-              "Failed to read AS7000 version info after flashing!");
-      goto cleanup;
+      PBL_LOG(LOG_LEVEL_ERROR, 
+              "Failed to read AS7000 version info after flashing! (Attempt %d)", 
+              retry_count + 1);
+      retry_count++;
+      continue;  // Try again
     }
-  } else {
-    PBL_LOG(LOG_LEVEL_DEBUG, "AS7000 firmware is up to date.");
+    
+    // If we made it here, the flash was successful
+    flash_success = true;
+    PBL_LOG(LOG_LEVEL_INFO, "HRM firmware flash successful after %d attempts", 
+            retry_count + 1);
   }
 
-cleanup:
+  if (!flash_success) {
+    PBL_LOG(LOG_LEVEL_ERROR, "Failed to flash HRM firmware after %d attempts", 
+            MAX_FLASH_RETRIES);
+  }
+
   // At this point the HRM should either be booted and running the
   // application firmware, at which point deasserting the enable GPIO
   // will signal it to shut down, or the firmware update failed and the
