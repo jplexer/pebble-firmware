@@ -1,914 +1,2678 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: 5.0\n"
-"Language: nl_NL\n"
-"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: pblos-jp-test2\n"
+"X-Crowdin-Project-ID: 783980\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /i10n_test/resources/normal/base/lang/en_US/tintin_en.po\n"
+"X-Crowdin-File-ID: 23\n"
+"Project-Id-Version: pblos-jp-test2\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Name: Nederlands\n"
-"X-Generator: POEditor.com\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2025-04-23 18:10\n"
 
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:45
-msgid "Jan"
-msgstr "jan"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:45
-msgid "Feb"
-msgstr "feb"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:45
-msgid "Mar"
-msgstr "mrt"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:45
-msgid "Apr"
-msgstr "apr"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:45
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:50
-msgid "May"
-msgstr "mei"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:46
-msgid "Jun"
-msgstr "jun"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:46
-msgid "Jul"
-msgstr "jul"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:46
-msgid "Aug"
-msgstr "aug"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:46
-msgid "Sep"
-msgstr "sep"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:46
-msgid "Oct"
-msgstr "okt"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:47
-msgid "Nov"
-msgstr "nov"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:47
-msgid "Dec"
-msgstr "dec"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:49
-msgid "January"
-msgstr "januari"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:49
-msgid "February"
-msgstr "februari"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:49
-msgid "March"
-msgstr "maart"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:49
-msgid "April"
-msgstr "april"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:50
-msgid "June"
-msgstr "juni"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:50
-msgid "July"
-msgstr "juli"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:50
-msgid "August"
-msgstr "augustus"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:51
-msgid "September"
-msgstr "september"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:51
-msgid "October"
-msgstr "oktober"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:51
-msgid "November"
-msgstr "november"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:51
-msgid "December"
-msgstr "december"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:53
-msgid "Sun"
-msgstr "zo"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:53
-msgid "Mon"
-msgstr "ma"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:53
-msgid "Tue"
-msgstr "di"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:53
-msgid "Wed"
-msgstr "wo"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:54
-msgid "Thu"
-msgstr "do"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:54
-msgid "Fri"
-msgstr "vr"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:54
-msgid "Sat"
-msgstr "za"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:56
-msgid "Sunday"
-msgstr "zondag"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:56
-msgid "Monday"
-msgstr "maandag"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:56
-msgid "Tuesday"
-msgstr "dinsdag"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:56
-msgid "Wednesday"
-msgstr "woensdag"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:57
-msgid "Thursday"
-msgstr "donderdag"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:57
-msgid "Friday"
-msgstr "vrijdag"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:57
-msgid "Saturday"
-msgstr "zaterdag"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:61
-msgid "%H:%M:%S"
-msgstr "%H:%M:%S"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:70
-msgid "%m/%d/%y"
-msgstr "%d/%m/%y"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:75
-msgid "%a %b %e %H:%M:%S %Y"
-msgstr "%a %b %e %H:%M:%S %Y"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:81
-msgid "%a %b %e %H:%M:%S %Z %Y"
-msgstr "%a %b %e %H:%M:%S %Z %Y"
-
-#: /Users/francois/Work/tintin/src/fw/applib/pbl_std/timelocal.c:94
-msgid "md"
-msgstr "dm"
-
-#: /Users/francois/Work/tintin/src/fw/applib/ui/date_time_window.c:171
-msgid "Year"
-msgstr "Jaar"
-
-#: /Users/francois/Work/tintin/src/fw/applib/ui/date_time_window.c:181
-msgid "Month"
-msgstr "Maand"
-
-#: /Users/francois/Work/tintin/src/fw/applib/ui/date_time_window.c:195
-msgid "Day"
-msgstr "Dag"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarm_detail.c:81
-msgid "Enable"
-msgstr "Inschakelen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarm_detail.c:81
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:63
-msgid "Disable"
-msgstr "Uitschakelen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarm_detail.c:85
-msgid "Edit"
-msgstr "Wijzigen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarm_detail.c:89
-msgid "Delete"
-msgstr "Verwijderen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarm_editor.c:69
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarms.c:224
-msgid "New Alarm"
-msgstr "Nieuwe wekker"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarm_editor.c:69
-msgid "Edit Alarm"
-msgstr "Wekker wijzigen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarms.c:226
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarms.c:341
-msgid "Snooze Delay"
-msgstr "Snoozetijd"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarms.c:256
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:68
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:79
-msgid "ON"
-msgstr "AAN"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarms.c:256
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:73
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:81
-msgid "OFF"
-msgstr "UIT"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarms.c:265
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:199
-msgid "Options"
-msgstr "Opties"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarms.c:380
-msgid "Alarms"
-msgstr "Wekker"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/fw_update/fw_update.c:124
-msgid "Updating..."
-msgstr "Installeren..."
-
-#: /Users/francois/Work/tintin/src/fw/apps/core_apps/fw_update/fw_update.c:172
-msgid "Firmware Update"
-msgstr "Firmware-update"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/getting_started/getting_started.c:124
-msgid "Cancel Update?"
-msgstr "Update annuleren?"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/getting_started/getting_started.c:125
-msgid ""
-"Cancel\n"
-"Update?"
+msgid "%.*s is not responding"
 msgstr ""
-"Update\n"
-"annuleren?"
 
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/getting_started/getting_started.c:196
-msgid "Install Pebble App"
-msgstr "Installeer Pebble-app"
+msgid "This app requires a newer version of the Pebble firmware."
+msgstr ""
 
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/getting_started/getting_started.c:312
-msgid "Getting Started"
-msgstr "Aan de slag"
+msgid "Snooze for %d minutes"
+msgstr ""
 
-#: /Users/francois/Work/tintin/src/fw/popups/phone_ui.c:374
+msgid "Alarm dismissed"
+msgstr ""
+
+msgid "Your heart rate has been shared with an app on your phone for several hours. This could affect your battery. Stop sharing now?"
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+msgid "Stop Sharing Heart Rate"
+msgstr ""
+
+msgid "Sharing Heart Rate"
+msgstr ""
+
+msgid "Share heart rate?"
+msgstr ""
+
+msgid "Heart Rate Not Shared"
+msgstr ""
+
+msgid "Pair?"
+msgstr ""
+
+msgid "%s%.*s is not responding.\n\n"
+"Open app?"
+msgstr ""
+
+msgid "Your Pebble just reset. Please report this using the 'Support' link in the Pebble phone app."
+msgstr ""
+
+msgid "Bluetooth on your phone is in a high power state. Please report this using 'Support' and reboot your phone."
+msgstr ""
+
+msgid "This app requires Pebble Health to work. Enable Health in the Pebble mobile app to continue."
+msgstr ""
+
+msgid "This feature requires Pebble Health to work. Enable Health in the Pebble mobile app to continue."
+msgstr ""
+
+msgid "Snoozed"
+msgstr ""
+
+msgid "Muted"
+msgstr ""
+
+msgid "Snooze"
+msgstr ""
+
+msgid "Mute %s"
+msgstr ""
+
+msgid "Mute Always"
+msgstr ""
+
+msgid "Mute Weekends"
+msgstr ""
+
+msgid "Mute Weekdays"
+msgstr ""
+
+msgid "Dismiss All"
+msgstr ""
+
+msgid "End Quiet Time"
+msgstr ""
+
+msgid "Start Quiet Time"
+msgstr ""
+
+msgid "Call Accepted"
+msgstr ""
+
 msgid "Disconnected"
 msgstr "Niet verbonden"
 
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/golf.c:199
-msgid "Hole"
-msgstr "Hole"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/golf.c:221
-msgid "Par"
-msgstr "Par"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/golf.c:333
-msgid "Golf"
-msgstr "Golf"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/music_app.c:286
-msgid "No Phone Connection"
-msgstr "Geen verbinding"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/music_app.c:296
-msgid "No Music Found"
-msgstr "Geen muziek"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/music_app.c:504
-msgid "Music"
-msgstr "Muziek"
-
-#. Maybe remove the period ('.') in English?
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/notifications.c:379
-msgid "No notifications."
-msgstr "Geen notificaties"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/notifications.c:510
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings.c:96
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:193
-msgid "Notifications"
-msgstr "Notificaties"
-
-#: /Users/francois/Work/tintin/src/fw/apps/core_apps/panic_window_app.c:111
-msgid "Panic App"
-msgstr "Panic App"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings.c:94
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:336
-msgid "Bluetooth"
-msgstr "Bluetooth"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings.c:98
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_activity_tracker.c:113
-msgid "Activity"
-msgstr "Activiteit"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings.c:100
-msgid "Quick Launch"
-msgstr "Snelkoppeling"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings.c:102
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_time.c:83
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_time.c:223
-msgid "Date & Time"
-msgstr "Datum en tijd"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings.c:104
-msgid "Display"
-msgstr "Scherm"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings.c:106
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_about.c:97
-msgid "About"
-msgstr "Over"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings.c:111
-msgid "Shut Down"
-msgstr "Uitschakelen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings.c:114
-msgid "Factory Reset"
-msgstr "Herstel"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings.c:244
-msgid "Settings"
-msgstr "Instellingen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_about.c:37
-msgid "BT Address"
-msgstr "Bluetooth-adres"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_about.c:38
-msgid "Firmware"
-msgstr "Firmware"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_about.c:40
-msgid "Recovery"
-msgstr "Systeemherstel"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_about.c:41
-msgid "Bootloader"
-msgstr "Bootloader"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_about.c:42
-msgid "Hardware"
-msgstr "Hardware"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_about.c:43
-msgid "Serial"
-msgstr "Serienummer"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_about.c:44
-msgid "Uptime"
-msgstr "Uptime"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_about.c:45
-msgid "Legal"
-msgstr "Juridisch"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_activity_tracker.c:101
-msgid "Activity Tracker"
-msgstr "Activiteitsmeter"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_activity_tracker.c:143
-msgid "No Activity Trackers are installed"
-msgstr "Geen activiteitsmeters geïnstalleerd"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:86
-msgid "Now Discoverable"
-msgstr "Nu detecteerbaar"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:160
-msgid "<Unknown>"
-msgstr "<Niet bekend>"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:232
-msgid "Pairing Instructions"
-msgstr "Koppelinstructies"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:235
-msgid "%u Paired Phone%c"
-msgstr "%u telefoon%c gekoppeld"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:301
-msgid "No LE"
-msgstr "Geen LE"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:301
-msgid "LE Only"
-msgstr "Alleen LE"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:313
-msgid "Connected"
-msgstr "Verbonden"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:327
-msgid "Bluetooth OFF"
-msgstr "Bluetooth uit"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:328
-msgid "Airplane Mode"
-msgstr "Vliegtuigmodus"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:331
-msgid "Bluetooth ON"
-msgstr "Bluetooth aan"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:337
-msgid "Disabling..."
-msgstr "Uitschakelen..."
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:337
-msgid "Enabling..."
-msgstr "Inschakelen..."
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:355
-msgid "Disable Airplane Mode to connect"
-msgstr "Schakel vliegtuigmodus uit om te verbinden"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_bluetooth.c:357
-msgid "Open the Pebble app on your phone to connect"
-msgstr "Open Pebble-app op telefoon om te verbinden"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:217
-msgid "Clear all notification history?"
-msgstr "Notificatie geschiedenis wissen?"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:66
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:97
-msgid "Backlight"
-msgstr "Licht"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:70
-msgid "Auto"
-msgstr "Auto"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:71
-msgid "Ambient Controlled"
-msgstr "Pas automatisch aan"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:76
-msgid "Motion"
-msgstr "Beweging"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:77
-msgid "Shake to light"
-msgstr "Schud voor licht"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_factory_reset.c:78
-msgid "Reset to factory settings?"
-msgstr "Instellingen herstellen?"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_factory_reset.c:84
-msgid ""
-"Remember to also forget your Pebble's Bluetooth connection from your mobile "
-"device"
-msgstr ""
-"Denk eraan, \"vergeet\" je Pebble's Bluetooth koppeling ook vanaf je telefoon"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:118
-msgid "Notifications On"
-msgstr "Notificaties aan"
-
-#. I wasn't able to reach this.
-#. Is this still used?
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:121
-msgid "Texts Only"
-msgstr "Alleen SMS"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:124
-msgid "Phone Calls Only"
-msgstr "Alleen oproepen"
-
-#. Wasn't able to reach this. Is this still used?
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:127
-msgid "Apps Only"
-msgstr "Alleen apps"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:130
-msgid "Notifications Off"
-msgstr "Notificaties uit"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:135
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:172
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch.c:147
-msgid "Enabled"
-msgstr "Ingeschakeld"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:138
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:174
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch.c:147
-msgid "Disabled"
-msgstr "Uitgeschakeld"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:152
-msgid "Set Schedule"
-msgstr "Tijd instellen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:155
-msgid "Font Size"
-msgstr "Lettergrootte"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:158
-msgid "Small"
-msgstr "Klein"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:161
-msgid "Large"
-msgstr "Groot"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:168
-msgid "Vibration"
-msgstr "Trillen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:170
-msgid "Disabled (Plugged In)"
-msgstr "Uit (aan de lader)"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:177
-msgid "Clear History"
-msgstr "Wis geschiedenis"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:196
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_notifications.c:319
-msgid "Do Not Disturb"
-msgstr "Niet storen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch.c:109
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_app_menu.c:70
-msgid "Select an App"
-msgstr "Selecteer app"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch.c:152
-msgid "Set App"
-msgstr "App instellen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch.c:175
-msgid "Up Button"
-msgstr "Omhoog-knop"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch.c:178
-msgid "Down Button"
-msgstr "Omlaag-knop"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:60
-msgid "Set Now"
-msgstr "Nu Instellen"
-
-#. Too little room here for a "literal" translation.
-#. Changed this to say "Quick Launch" in Dutch.
-#. In the context of this screen it made sense to me.
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:129
-msgid "UP shortcut set"
-msgstr "Snelkoppeling"
-
-#. Too little room here for a "literal" translation.
-#. Changed this to say "Quick Launch" in Dutch.
-#. In the context of this screen it made sense to me.
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:129
-msgid "DOWN shortcut set"
-msgstr "Snelkoppeling"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:164
-msgid "UP shortcut disabled"
-msgstr "Snelkoppeling voor \"omhoog\" uit"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:164
-msgid "DOWN shortcut disabled"
-msgstr "Snelkoppeling voor \"omlaag\" uit"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:177
-msgid "This shortcut can be enabled from the settings menu"
-msgstr "Stel snelkoppeling in vanuit \"Instellingen\""
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:190
-msgid "Shortcut not set"
-msgstr "Geen snelkoppeling"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:201
-msgid "Would you like to set the UP shortcut?"
-msgstr "Omhoog-knop instellen?"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:202
-msgid "Would you like to set the DOWN shortcut?"
-msgstr "Omlaag-knop instellen?"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:224
-msgid "Long press %s from any watchface to open %s"
-msgstr "Druk %s lang in om vanuit wijzerplaat %s te openen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:225
-msgid "UP"
-msgstr "OMHOOG"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_quick_launch_setup_menu.c:226
-msgid "DOWN"
-msgstr "OMLAAG"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_remote.c:96
-msgid "Forget"
-msgstr "Vergeet"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_remote.c:114
-msgid ""
-"Remember to also forget your Pebble's Bluetooth connection from your phone"
-msgstr ""
-"Denk eraan, \"vergeet\" je Pebble's Bluetooth koppeling ook vanaf je telefoon"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_time.c:50
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_time.c:186
-msgid "Set Time"
-msgstr "Tijd instellen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_time.c:57
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_time.c:190
-msgid "Set Date"
-msgstr "Datum instellen"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_time.c:67
-msgid "Time Display"
-msgstr "Tijdweergave"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_time.c:69
-msgid "24h"
-msgstr "24 uur"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_time.c:69
-msgid "12h"
-msgstr "12 uur"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/sports.c:69
-msgid "mi/h"
-msgstr "mi/h"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/sports.c:69
-msgid "km/h"
-msgstr "km/h"
-
-#. the font in the Sports UI doesn't contain the "j" and "l" that are used in the Dutch translateion.
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/sports.c:70
-msgid "min/mi"
-msgstr "min/mi"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/sports.c:70
-msgid "min/km"
-msgstr "min/km"
-
-#. "mijl" doesn't fit.
-#. Changed back to "mi"
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/sports.c:73
-msgid "mi"
-msgstr "mi"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/sports.c:73
-msgid "km"
-msgstr "km"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/sports.c:144
-msgid "PACE"
-msgstr "TEMPO"
-
-#. Doesn't fit.
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/sports.c:144
-msgid "SPEED"
-msgstr "SNELHEID"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/sports.c:353
-msgid "Sports"
-msgstr "Sport"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/watchfaces.c:64
-msgid "Selected"
-msgstr "Geselecteerd"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/watchfaces.c:154
-msgid "Watchfaces"
-msgstr "Wijzerplaten"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/welcome_ui_app.c:59
-msgid "You just updated your Pebble to version %s!"
-msgstr "Je hebt je Pebble bijgewerkt naar versie %s!"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/welcome_ui_app.c:70
-msgid "Your Pebble is up to date!"
-msgstr "Je Pebble is up-to-date!"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/welcome_ui_app.c:117
-msgid "Welcome!"
-msgstr "Welkom!"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/welcome_ui_app.c:144
-msgid "Welcome UI"
-msgstr "Welkom"
-
-#: /Users/francois/Work/tintin/src/fw/apps/watch/simplicity/simplicity.c:35
-msgid "%B %e"
-msgstr "%e %B"
-
-#: /Users/francois/Work/tintin/src/fw/apps/watch/simplicity/simplicity.c:112
-msgid "Simplicity"
-msgstr "Simplicity"
-
-#: /Users/francois/Work/tintin/src/fw/popups/battery_warning.c:26
-msgid "Last Warning"
-msgstr "Laatste waarschuwing"
-
-#: /Users/francois/Work/tintin/src/fw/popups/battery_warning.c:28
-msgid "%d%% remaining"
-msgstr "%d%% resterend"
-
-#: /Users/francois/Work/tintin/src/fw/popups/battery_warning.c:42
-msgid "Battery Low"
-msgstr "Batterij leeg"
-
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_layer.c:189
-msgid "Just now"
-msgstr "Zojuist"
-
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_layer.c:191
-msgid "A minute ago"
-msgstr "Een minuut geleden"
-
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_layer.c:195
-msgid "An hour ago"
-msgstr "Een uur geleden"
-
-#: /Users/francois/Work/tintin/src/fw/popups/phone.c:149
-msgid "Unknown"
-msgstr "Onbekend"
-
-#: /Users/francois/Work/tintin/src/fw/popups/phone.c:211
-msgid "No Caller ID"
-msgstr "Onbekend nummer"
-
-#: /Users/francois/Work/tintin/src/fw/popups/phone_ui.c:147
-msgid "Declining Call"
-msgstr "Weigeren..."
-
-#: /Users/francois/Work/tintin/src/fw/popups/phone.c:272
-msgid "Canceling Call"
-msgstr "Annuleren..."
-
-#. Text boxes overlap
-#. https://pebbletechnology.atlassian.net/browse/PBL-11355
-#: /Users/francois/Work/tintin/src/fw/popups/phone_ui.c:145
-#: /Users/francois/Work/tintin/src/fw/popups/phone_ui.c:376
 msgid "Call Ended"
 msgstr "Gesprek beëindigd"
 
-#. Text boxes overlap
-#. https://pebbletechnology.atlassian.net/browse/PBL-11355
-#: /Users/francois/Work/tintin/src/fw/popups/phone_ui.c:306
-msgid "Incoming Call"
-msgstr "Inkomend gesprek"
-
-#: /Users/francois/Work/tintin/src/fw/popups/phone_ui.c:328
-msgid "Calling..."
-msgstr "Bellen..."
-
-#: /Users/francois/Work/tintin/src/fw/popups/phone_ui.c:343
-msgid "Missed Call"
-msgstr "Gemist gesprek"
-
-#: /Users/francois/Work/tintin/src/fw/popups/phone.c:543
-msgid "Ringing..."
-msgstr "Gaat over..."
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/notifications.c:406
-msgid "%A %b %d"
-msgstr "%A %d %b"
-
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_factory_reset.c:39
-msgid "Resetting..."
-msgstr "Herstarten..."
-
-#: /Users/francois/Work/tintin/src/fw/apps/watch/simple_analog/simple_analog.c:177
-msgid "Classic Analog"
-msgstr "Classic Analog"
-
-#: /Users/francois/Work/tintin/src/fw/popups/crashed_ui.c:76
-msgid "Worker"
-msgstr "Werker"
-
-#: /Users/francois/Work/tintin/src/fw/popups/crashed_ui.c:76
-msgid "App"
-msgstr "App"
-
-#: /Users/francois/Work/tintin/src/fw/popups/crashed_ui.c:77
-msgid ""
-"%s crashed!\n"
-"%.20s"
+msgid "Call Declined"
 msgstr ""
-"%s gecrasht!\n"
-"%.20s"
 
-#: /Users/francois/Work/tintin/src/fw/popups/crashed_ui.c:86
-msgid "Press any button"
-msgstr "Druk een knop"
+msgid "Run %s instead of %s as the background app?"
+msgstr ""
 
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_layer.c:193
-msgid "%lu minutes ago"
-msgstr "%lu minuten geleden"
+msgid "While your Pebble was off wakeup events occurred for:\n"
+msgstr ""
 
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_layer.c:197
-msgid "%lu hours ago"
-msgstr "%lu uur geleden"
+msgid "Fully Charged"
+msgstr ""
 
-#: /Users/francois/Work/tintin/src/fw/services/alarm.c:146
-msgid "Alarm"
+msgid "Charging"
+msgstr ""
+
+msgid "Powered 'til %s"
+msgstr ""
+
+msgid "Your screen may need calibration. Calibrate it now?"
+msgstr ""
+
+msgid "Pebble Updated!"
+msgstr ""
+
+msgid "For activity and sleep tracking, press up from your watch face.\n\n"
+"Press down for current and future events.\n\n"
+"Read more at blog.pebble.com"
+msgstr ""
+
+msgid "Update Complete"
+msgstr ""
+
+msgid "Update Failed"
+msgstr ""
+
+msgid "Snooze delay set to %d minutes"
+msgstr ""
+
+msgid "Delete"
+msgstr "Verwijderen"
+
+msgid "Disable"
+msgstr "Uitschakelen"
+
+msgid "Enable"
+msgstr "Inschakelen"
+
+msgid "Change Time"
+msgstr ""
+
+msgid "Change Days"
+msgstr ""
+
+msgid "Convert to Basic Alarm"
+msgstr ""
+
+msgid "Convert to Smart Alarm"
+msgstr ""
+
+msgid "Snooze Delay"
+msgstr "Snoozetijd"
+
+msgid "5 minutes"
+msgstr ""
+
+msgid "10 minutes"
+msgstr ""
+
+msgid "15 minutes"
+msgstr ""
+
+msgid "30 minutes"
+msgstr ""
+
+msgid "1 hour"
+msgstr ""
+
+msgid "Check something first."
+msgstr ""
+
+msgid "New Smart Alarm"
+msgstr ""
+
+msgid "New Alarm"
+msgstr "Nieuwe wekker"
+
+msgid "Wake up between"
+msgstr ""
+
+msgid "Wake up interval"
+msgstr ""
+
+msgid "Basic Alarm"
+msgstr ""
+
+msgid "Smart Alarm"
+msgstr ""
+
+msgid "Alarm Deleted"
+msgstr ""
+
+msgid "Limit reached."
+msgstr ""
+
+msgid "ON"
+msgstr "AAN"
+
+msgid "OFF"
+msgstr "UIT"
+
+msgid "Let us wake you in your lightest sleep so you're fully refreshed! Smart Alarm wakes you up to 30min before your alarm."
+msgstr ""
+
+msgid "Alarms"
 msgstr "Wekker"
 
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_activity_tracker.c:103
-msgid "Active"
-msgstr "Actief"
+msgid "Not connected"
+msgstr ""
 
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_activity_tracker.c:103
-msgid "Off"
-msgstr "Uit"
+msgid "No internet\n"
+"connection"
+msgstr ""
 
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/alarms/alarms.c:48
-msgid "%d minute(s)"
-msgstr "%d min."
+msgid "No internet connection"
+msgstr ""
 
-#: /Users/francois/Work/tintin/src/fw/popups/switch_worker_ui.c:55
-msgid "Use %s instead of %s for activity tracking?"
-msgstr "Activiteitsmeter %s gebruiken in plaats van %s?"
+msgid "Incompatible JS"
+msgstr ""
 
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_about.c:39
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:84
+msgid "Failed"
+msgstr "Mislukt"
+
+msgid "Track your steps, sleep, and more! Enable Pebble Health in the mobile app."
+msgstr ""
+
+msgid "Health"
+msgstr ""
+
+msgid "MI"
+msgstr ""
+
+msgid "KM"
+msgstr ""
+
+msgid "30 DAY AVG"
+msgstr ""
+
+msgid "CALORIES"
+msgstr ""
+
+msgid "DISTANCE"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid ": "
+msgstr ""
+
+msgid "%a: "
+msgstr ""
+
+msgid "SMTWTFS"
+msgstr ""
+
+msgid "BPM"
+msgstr ""
+
+msgid "Fat Burn"
+msgstr ""
+
+msgid "Endurance"
+msgstr ""
+
+msgid "Performance"
+msgstr ""
+
+msgid "RESTING"
+msgstr ""
+
+msgid "Enable heart rate monitoring in the mobile app"
+msgstr ""
+
+msgid "30 DAY"
+msgstr ""
+
+msgid "SLEEP SESSION"
+msgstr ""
+
+msgid "DEEP SLEEP"
+msgstr ""
+
+msgid "No sleep data,\n"
+"wear your watch\n"
+"to sleep"
+msgstr ""
+
+msgid "TYPICAL %s"
+msgstr ""
+
+msgid "--°"
+msgstr ""
+
+msgid "%i° - %s"
+msgstr ""
+
+msgid "%i°"
+msgstr ""
+
+msgid "START PLAYBACK\n"
+"ON YOUR PHONE"
+msgstr ""
+
+msgid "Music"
+msgstr "Muziek"
+
+msgid "Done"
+msgstr ""
+
+msgid "Clear history?"
+msgstr ""
+
+msgid "Clear All"
+msgstr ""
+
+msgid "No notifications"
+msgstr ""
+
+msgid "Notifications"
+msgstr "Notificaties"
+
+msgid "Completed"
+msgstr ""
+
+msgid "Postpone"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Added"
+msgstr ""
+
+msgid "Reminder"
+msgstr ""
+
+msgid "Unknown"
+msgstr "Onbekend"
+
+msgid "Select Contact"
+msgstr ""
+
+msgid "Add contacts in\n"
+"mobile app"
+msgstr ""
+
+msgid "Send Text"
+msgstr ""
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "No background apps"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Background App"
+msgstr ""
+
+msgid "<Untitled>"
+msgstr ""
+
+msgid "Pairing Instructions"
+msgstr "Koppelinstructies"
+
+msgid "%u Paired Phones"
+msgstr ""
+
+msgid "%u Paired Phone"
+msgstr ""
+
+msgid "No LE"
+msgstr "Geen LE"
+
+msgid "LE Only"
+msgstr "Alleen LE"
+
+msgid "Connected"
+msgstr "Verbonden"
+
+msgid "Sharing Heart Rate ❤"
+msgstr ""
+
+msgid "Connection"
+msgstr ""
+
+msgid "Airplane Mode"
+msgstr "Vliegtuigmodus"
+
+msgid "Now Discoverable"
+msgstr "Nu detecteerbaar"
+
+msgid "Disabling..."
+msgstr "Uitschakelen..."
+
+msgid "Enabling..."
+msgstr "Inschakelen..."
+
+msgid "Disable Airplane Mode to connect."
+msgstr ""
+
+msgid "Open the Pebble app on your phone to connect."
+msgstr ""
+
+msgid "Bluetooth"
+msgstr ""
+
+msgid "Low"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "High"
+msgstr ""
+
+msgid "Blinding"
+msgstr ""
+
+msgid "INTENSITY"
+msgstr ""
+
+msgid "Intensity"
+msgstr ""
+
+msgid "3 Seconds"
+msgstr ""
+
+msgid "5 Seconds"
+msgstr ""
+
+msgid "8 Seconds"
+msgstr ""
+
+msgid "TIMEOUT"
+msgstr ""
+
+msgid "Timeout"
+msgstr ""
+
 msgid "Language"
 msgstr "Taal"
 
-#: /Users/francois/Work/tintin/src/fw/popups/bluetooth_ssp_ui.c:82
+msgid "Backlight"
+msgstr "Licht"
+
+msgid "On"
+msgstr ""
+
+msgid "Off"
+msgstr "Uit"
+
+msgid "Motion Enabled"
+msgstr ""
+
+msgid "Ambient Sensor"
+msgstr ""
+
+msgid "Screen Alignment"
+msgstr ""
+
+msgid "Display"
+msgstr "Scherm"
+
+msgid "Horizontal Alignment"
+msgstr ""
+
+msgid "Vertical Alignment"
+msgstr ""
+
+msgid "Confirm Alignment"
+msgstr ""
+
+msgid "Up/Down to adjust\n"
+"Select to proceed"
+msgstr ""
+
+msgid "Select to confirm alignment changes"
+msgstr ""
+
+msgid "Resetting..."
+msgstr "Herstarten..."
+
+msgid "Perform factory reset?"
+msgstr ""
+
+msgid "Allow All Notifications"
+msgstr ""
+
+msgid "Allow Phone Calls Only"
+msgstr ""
+
+msgid "Mute All Notifications"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgctxt "NotifVibe"
+msgid "Disabled"
+msgstr ""
+
+msgctxt "NotifVibe"
+msgid "Low"
+msgstr ""
+
+msgctxt "NotifVibe"
+msgid "Medium"
+msgstr ""
+
+msgctxt "NotifVibe"
+msgid "High"
+msgstr ""
+
+msgid "Vibration"
+msgstr "Trillen"
+
+msgid "Smaller"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Larger"
+msgstr ""
+
+msgid "Text Size"
+msgstr ""
+
+msgid "15 Seconds"
+msgstr ""
+
+msgid "1 Minute"
+msgstr ""
+
+msgid "3 Minutes"
+msgstr ""
+
+msgid "10 Minutes"
+msgstr ""
+
+msgid "Disabled (Plugged In)"
+msgstr "Uit (aan de lader)"
+
+msgid "Up Button"
+msgstr "Omhoog-knop"
+
+msgid "Center Button"
+msgstr ""
+
+msgid "Down Button"
+msgstr "Omlaag-knop"
+
+msgid "Back Button"
+msgstr ""
+
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+msgid "Quick Launch"
+msgstr "Snelkoppeling"
+
+msgid "Open favorite apps quickly with a long button press from your watchface."
+msgstr ""
+
+msgid "Quiet All Notifications"
+msgstr ""
+
+msgid "Allow Phone Calls"
+msgstr ""
+
+msgid "Change Schedule"
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+msgid "Calendar Aware"
+msgstr ""
+
+msgctxt "QuietTime"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "QuietTime"
+msgid "Disabled"
+msgstr ""
+
+msgid "Weekdays"
+msgstr ""
+
+msgid "Weekends"
+msgstr ""
+
+msgid "Interruptions"
+msgstr ""
+
+msgid "Quiet Time"
+msgstr ""
+
+msgid "You're all set"
+msgstr ""
+
+msgid "Forget"
+msgstr "Vergeet"
+
+msgid "Information"
+msgstr ""
+
+msgid "Certification"
+msgstr ""
+
+msgid "Stand-By Mode"
+msgstr ""
+
+msgid "Shut Down"
+msgstr "Uitschakelen"
+
+msgid "Factory Reset"
+msgstr "Herstel"
+
+msgid "BT Address"
+msgstr "Bluetooth-adres"
+
+msgid "Firmware"
+msgstr ""
+
+msgid "Recovery"
+msgstr "Systeemherstel"
+
+msgid "Bootloader"
+msgstr ""
+
+msgid "Hardware"
+msgstr ""
+
+msgid "Serial"
+msgstr "Serienummer"
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Legal"
+msgstr "Juridisch"
+
+msgid "The core dump was created successfully. Please create a support request as usual."
+msgstr ""
+
+msgid "Core dump and reboot?"
+msgstr ""
+
+msgid "Did your Pebble reset?"
+msgstr ""
+
+msgid "See details..."
+msgstr ""
+
+msgid "Do you want to shut down?"
+msgstr ""
+
+msgid "System"
+msgstr ""
+
+msgid "Timezone"
+msgstr ""
+
+msgid "Time Format"
+msgstr ""
+
+msgid "24h"
+msgstr "24 uur"
+
+msgid "12h"
+msgstr "12 uur"
+
+msgid "Timezone Source"
+msgstr ""
+
+msgid "Automatic"
+msgstr ""
+
+msgid "Date & Time"
+msgstr "Datum en tijd"
+
+msgid "Start Time"
+msgstr ""
+
+msgid "5 Min Before"
+msgstr ""
+
+msgid "10 Min Before"
+msgstr ""
+
+msgid "15 Min Before"
+msgstr ""
+
+msgid "30 Min Before"
+msgstr ""
+
+msgid "Timing"
+msgstr ""
+
+msgid "Quick View"
+msgstr ""
+
+msgid "Appears on your watchface when an event is about to start."
+msgstr ""
+
+msgid "Timeline"
+msgstr ""
+
+msgid "Incoming Calls"
+msgstr ""
+
+msgid "Vibrations"
+msgstr ""
+
+msgid "No events"
+msgstr ""
+
+msgid "Timeline Past"
+msgstr ""
+
+msgid "Turn On Airplane Mode?"
+msgstr ""
+
+msgid "Turn Off Airplane Mode?"
+msgstr ""
+
+msgid "Airplane\n"
+"Mode On"
+msgstr ""
+
+msgid "Airplane\n"
+"Mode Off"
+msgstr ""
+
+msgid "Turn On Motion Backlight?"
+msgstr ""
+
+msgid "Turn Off Motion Backlight?"
+msgstr ""
+
+msgid "Motion\n"
+"Backlight On"
+msgstr ""
+
+msgid "Motion\n"
+"Backlight Off"
+msgstr ""
+
+msgid "Motion Backlight"
+msgstr ""
+
+msgid "Active"
+msgstr "Actief"
+
+msgid "Watchfaces"
+msgstr "Wijzerplaten"
+
+msgid "No location information available. To see weather, add locations in your Pebble mobile app."
+msgstr ""
+
+msgid "Unable to connect. Your weather data may be out of date; try checking the connection on your phone."
+msgstr ""
+
+msgid "Weather"
+msgstr ""
+
+msgid "--° / --°"
+msgstr ""
+
+msgid "%i° / --°"
+msgstr ""
+
+msgid "--° / %i°"
+msgstr ""
+
+msgid "%i° / %i°"
+msgstr ""
+
+msgid "TOMORROW"
+msgstr ""
+
+msgid "Sports"
+msgstr "Sport"
+
+msgid "Workout\n"
+"Ended"
+msgstr ""
+
+msgid "Enable Pebble Health in the mobile app to track workouts"
+msgstr ""
+
+msgid "Wear your watch snug and 2 fingers' width above your wrist bone for best results."
+msgstr ""
+
+msgid "Workout"
+msgstr ""
+
+msgid "FAT BURN"
+msgstr ""
+
+msgid "ENDURANCE"
+msgstr ""
+
+msgid "PERFORMANCE"
+msgstr ""
+
+msgid "HEART RATE"
+msgstr ""
+
+msgid "DURATION"
+msgstr ""
+
+msgid "AVG PACE"
+msgstr ""
+
+msgid "AVG PACE (/MI)"
+msgstr ""
+
+msgid "AVG PACE (/KM)"
+msgstr ""
+
+msgid "PACE"
+msgstr "TEMPO"
+
+msgid "PACE (/MI)"
+msgstr ""
+
+msgid "PACE (/KM)"
+msgstr ""
+
+msgid "SPEED"
+msgstr "SNELHEID"
+
+msgid "SPEED (MPH)"
+msgstr ""
+
+msgid "SPEED (KM/H)"
+msgstr ""
+
+msgid "DISTANCE (MI)"
+msgstr ""
+
+msgid "DISTANCE (KM)"
+msgstr ""
+
+msgid "STEPS"
+msgstr ""
+
+msgid "MPH"
+msgstr ""
+
+msgid "KM/H"
+msgstr ""
+
+msgid "End Workout?"
+msgstr ""
+
+msgid "Still sweating? Your workout is active and will be ended soon. Open the workout to keep it going."
+msgstr ""
+
+msgid "End Workout"
+msgstr ""
+
+msgid "Open Workout"
+msgstr ""
+
+msgid "Walk"
+msgstr ""
+
+msgid "Run"
+msgstr ""
+
+msgid "Workout\n"
+"Detected"
+msgstr ""
+
+msgid "Walk\n"
+"Detected"
+msgstr ""
+
+msgid "Run\n"
+"Detected"
+msgstr ""
+
+msgid "%R"
+msgstr ""
+
+msgid "%l:%M"
+msgstr ""
+
+msgid "%p"
+msgstr ""
+
+msgid "%d BPM"
+msgstr ""
+
+msgid "%d,%03d"
+msgstr ""
+
+msgid "%d"
+msgstr ""
+
+msgid "Remember to also forget your Pebble's Bluetooth connection from your phone."
+msgstr ""
+
+msgid "Standard - Low"
+msgstr ""
+
+msgid "Standard - High"
+msgstr ""
+
+msgid "Pulse"
+msgstr ""
+
+msgid "Nudge Nudge"
+msgstr ""
+
+msgid "Jackhammer"
+msgstr ""
+
+msgid "All day"
+msgstr ""
+
+msgid "Now"
+msgstr ""
+
+msgid " MIN. TO"
+msgstr ""
+
+msgid "Yesterday"
+msgstr ""
+
+msgid "Tomorrow"
+msgstr ""
+
+msgid "%A"
+msgstr ""
+
+msgid "%B %d"
+msgstr ""
+
+msgid "%l:%M %p"
+msgstr ""
+
+msgid "Yesterday, %l:%M %p"
+msgstr ""
+
+msgid "Yesterday, %R"
+msgstr ""
+
+msgid "%b %e, %l:%M %p"
+msgstr ""
+
+msgid "%B %e"
+msgstr "%e %B"
+
+msgid "%b %e, %R"
+msgstr ""
+
+msgid "%a, %l:%M %p"
+msgstr ""
+
+msgid "%a, %R"
+msgstr ""
+
+msgid "%lu H AGO"
+msgstr ""
+
+msgid "An hour ago"
+msgstr "Een uur geleden"
+
+msgid "%lu hours ago"
+msgstr "%lu uur geleden"
+
+msgid "%lu MIN AGO"
+msgstr ""
+
+msgid "%lu minute ago"
+msgstr ""
+
+msgid "%lu minutes ago"
+msgstr "%lu minuten geleden"
+
+msgid "NOW"
+msgstr ""
+
+msgid "IN %lu MIN"
+msgstr ""
+
+msgid "In %lu minute"
+msgstr ""
+
+msgid "In %lu minutes"
+msgstr ""
+
+msgid "IN %lu H"
+msgstr ""
+
+msgid "In %lu hour"
+msgstr ""
+
+msgid "In %lu hours"
+msgstr ""
+
+msgid "%m/%d"
+msgstr ""
+
+msgid "%b "
+msgstr ""
+
+msgid "%B "
+msgstr ""
+
+msgid "%e"
+msgstr ""
+
+msgid "this morning"
+msgstr ""
+
+msgid "this afternoon"
+msgstr ""
+
+msgid "this evening"
+msgstr ""
+
+msgid "tonight"
+msgstr ""
+
+msgid "tomorrow morning"
+msgstr ""
+
+msgid "tomorrow afternoon"
+msgstr ""
+
+msgid "tomorrow evening"
+msgstr ""
+
+msgid "tomorrow night"
+msgstr ""
+
+msgid "the day after tomorrow"
+msgstr ""
+
+msgid "the foreseeable future"
+msgstr ""
+
+msgid "How are you feeling? Have you noticed extra focus, better mood or extra energy? You have been sleeping great this week! Keep it up!"
+msgstr ""
+
+msgid "I feel fabulous!"
+msgstr ""
+
+msgid "About average"
+msgstr ""
+
+msgid "I'm still tired"
+msgstr ""
+
+msgid "Awesome!"
+msgstr ""
+
+msgid "Keep it up!"
+msgstr ""
+
+msgid "We'll get there!"
+msgstr ""
+
+msgid "Congratulations - you're having a super active day! Activity makes you more focused and creative. How do you feel?"
+msgstr ""
+
+msgid "I feel great!"
+msgstr ""
+
+msgid "About the same"
+msgstr ""
+
+msgid "Not feeling it"
+msgstr ""
+
+msgid "Activity Summary"
+msgstr ""
+
+msgid "Do you feel more energetic, sharper or optimistic? Being active helps!"
+msgstr ""
+
+msgid "GREAT DAY TODAY"
+msgstr ""
+
+msgid "You're being consistent and that's important, keep at it!"
+msgstr ""
+
+msgid "CONSISTENT!"
+msgstr ""
+
+msgid "Resting is fine, but try to recover and step it up tomorrow!"
+msgstr ""
+
+msgid "NOT VERY ACTIVE"
+msgstr ""
+
+msgid "Sleep Summary"
+msgstr ""
+
+msgid "You had a good night! Feel the energy 😃"
+msgstr ""
+
+msgid "It's great that you're keeping a consistent sleep routine!"
+msgstr ""
+
+msgid "A good night's sleep goes a long way! Try to get more hours tonight."
+msgstr ""
+
+msgid "Open App"
+msgstr ""
+
+msgid "BELOW AVG"
+msgstr ""
+
+msgid "Below avg"
+msgstr ""
+
+msgid "ON AVG"
+msgstr ""
+
+msgid "On avg"
+msgstr ""
+
+msgid "ABOVE AVG"
+msgstr ""
+
+msgid "Above avg"
+msgstr ""
+
+msgid "Wanna know more about you? Track your activity and sleep with Pebble Health."
+msgstr ""
+
+msgid "You like sleep, don't you? Get fun stats on your sleep and start waking up less groggy with Pebble Health."
+msgstr ""
+
+msgid "Wish you could get daily updates on your activity and sleep progress? You can! Check out your stats with Pebble Health."
+msgstr ""
+
+msgid "%H:%M"
+msgstr ""
+
+msgid "%l:%M%p"
+msgstr ""
+
+msgid "%uH %uM Sleep"
+msgstr ""
+
+msgid "Nap Time"
+msgstr ""
+
+msgid "%s of sleep"
+msgstr ""
+
+msgid "YOU NAPPED"
+msgstr ""
+
+msgid "Of napping"
+msgstr ""
+
+msgid "%s - %s"
+msgstr ""
+
+msgid "I need more"
+msgstr ""
+
+msgid "Aren't naps great? You knocked out for %dH %dM!"
+msgstr ""
+
+msgid "I didn't nap!?"
+msgstr ""
+
+msgid "Open Pin"
+msgstr ""
+
+msgid "Killer job! You've walked %d steps today which is %d%% above your typical. Do it again tomorrow and you'll be on top of the world!"
+msgstr ""
+
+msgid "Nice moves! You've walked %d steps today which is %d%% above your typical. Crush it again tomorrow 😀"
+msgstr ""
+
+msgid "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your typical. Nothing can stop you!"
+msgstr ""
+
+msgid "We can barely keep up! You walked %d steps today which is %d%% above your typical. You're on 🔥"
+msgstr ""
+
+msgid "You walked %d steps today which is %d%% above your typical. You just outstepped YOURSELF. Mic drop."
+msgstr ""
+
+msgid "You walked %d steps today; keep it up! Being active is the key to feeling like a million bucks. Try to beat your typical tomorrow."
+msgstr ""
+
+msgid "Good job! You walked %d steps today–do it again tomorrow."
+msgstr ""
+
+msgid "Someone's on the move 👊 You walked %d steps today; keep doing what you're doing!"
+msgstr ""
+
+msgid "You keep moving, we'll keep counting! You've clocked in %d steps today. Keep it rolling, hot stuff."
+msgstr ""
+
+msgid "You walked %d steps today which is %d%% below your typical. Try to be more active tomorrow–you can do it!"
+msgstr ""
+
+msgid "You walked %d steps which is %d%% below your typical. Being active makes you feel amaaaazing–try to get back on track tomorrow."
+msgstr ""
+
+msgid "You walked %d steps today which is %d%% below your typical. Don't worry, tomorrow is just around the corner 😀"
+msgstr ""
+
+msgid "You walked %d steps which is %d%% below your typical, but don't stress. You'll crush it tomorrow 😉"
+msgstr ""
+
+msgid "You walked %d steps today. Don't fret, you can get back on track in no time 😉"
+msgstr ""
+
+msgid "You walked %d steps today. Good news is the sky's the limit!"
+msgstr ""
+
+msgid "You walked %d steps today. Try to take even more steps tomorrow–show us what you're made of!"
+msgstr ""
+
+msgid "Refreshed? You slept for %dH %dM which is %d%% above your typical. Go tackle your day 😃."
+msgstr ""
+
+msgid "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your typical. Keep it up."
+msgstr ""
+
+msgid "Rise and shine! You slept for %dH %dM which is %d%% above your typical. Do it again tonight, sleep master."
+msgstr ""
+
+msgid "Mmmm...what a night. You slept for %dH %dM which is %d%% above your typical. That's gotta feel good!"
+msgstr ""
+
+msgid "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% above your typical. Boom shakalaka."
+msgstr ""
+
+msgid "Good mornin’. You slept for %dH %dM. Every good day begins with a solid night’s sleep...kinda like that one 😉 Keep it up!"
+msgstr ""
+
+msgid "Good morning! You slept for %dH %dM. Consistency is key; keep doing what you're doing 😃."
+msgstr ""
+
+msgid "You're rockin' the shut eye! You slept for %dH %dM. Make it a nightly ritual. You deserve it."
+msgstr ""
+
+msgid "Feelin' good? You slept for %dH %dM. Nothing can stop you now 👊"
+msgstr ""
+
+msgid "Hey sleepy head. You slept for %dH %dM which is %d%% below your typical. Try to get more tonight!"
+msgstr ""
+
+msgid "Groggy? You slept for %dH %dM which is %d%% below your typical. Sleep is important for everything you do-try getting more shut eye tonight!"
+msgstr ""
+
+msgid "It's a new day! You slept for %dH %dM which is %d%% below your typical. It's not your best, but there's always tonight."
+msgstr ""
+
+msgid "Goooood morning! You slept for %dH %dM which is %d%% below your typical. Go crush your day and then get back in bed 😉"
+msgstr ""
+
+msgid "You slept for %dH %dM which is %d%% below your typical. Sleep is vital for all your great ideas–how 'bout getting more tonight?"
+msgstr ""
+
+msgid "You only slept for %dH %dM which is %d%% below your typical. We know you're busy, but try getting more tonight. We believe in you 😉"
+msgstr ""
+
+msgid "You slept for %dH %dM which is %d%% below your typical. We know stuff happens; take another crack at it tonight."
+msgstr ""
+
+msgid "%u Steps"
+msgstr ""
+
+msgid "Didn’t that walk feel good?"
+msgstr ""
+
+msgid "Way to keep it active!"
+msgstr ""
+
+msgid "You got the moves!"
+msgstr ""
+
+msgid "Gettin' your step on?"
+msgstr ""
+
+msgid "Feelin' hot? Cause you're on 🔥"
+msgstr ""
+
+msgid "Hey lightning bolt, way to go!"
+msgstr ""
+
+msgid "You're a machine!"
+msgstr ""
+
+msgid "Hey speedster, we can barely keep up!"
+msgstr ""
+
+msgid "Way to show us what you're made of 👊"
+msgstr ""
+
+msgid "Workin' up a sweat?"
+msgstr ""
+
+msgid "Well done 💪"
+msgstr ""
+
+msgid "Endorphin rush?"
+msgstr ""
+
+msgid "Can't stop, won't stop 👊"
+msgstr ""
+
+msgid "Keepin' that heart healthy! ❤"
+msgstr ""
+
+msgid "%d Min"
+msgstr ""
+
+msgid "Avg Pace"
+msgstr ""
+
+msgid "Distance"
+msgstr ""
+
+msgid "Steps"
+msgstr ""
+
+msgid "Active Calories"
+msgstr ""
+
+msgid "Avg HR"
+msgstr ""
+
+msgid "%dH"
+msgstr ""
+
+msgid "%dM"
+msgstr ""
+
+msgid "%d:%d"
+msgstr ""
+
+msgid "H"
+msgstr ""
+
+msgid " "
+msgstr ""
+
+msgid "M"
+msgstr ""
+
+msgid "%d.%d"
+msgstr ""
+
+msgid "Alarm"
+msgstr "Wekker"
+
+msgid "EVERY DAY"
+msgstr ""
+
+msgid "Every Day"
+msgstr ""
+
+msgid "WEEKDAYS"
+msgstr ""
+
+msgid "WEEKENDS"
+msgstr ""
+
+msgid "ONCE"
+msgstr ""
+
+msgid "Once"
+msgstr ""
+
+msgid "CUSTOM"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Sun"
+msgstr "zo"
+
+msgid "Mon"
+msgstr "ma"
+
+msgid "Tue"
+msgstr "di"
+
+msgid "Wed"
+msgstr "wo"
+
+msgid "Thu"
+msgstr "do"
+
+msgid "Fri"
+msgstr "vr"
+
+msgid "Sat"
+msgstr "za"
+
+msgid "Sundays"
+msgstr ""
+
+msgid "Mondays"
+msgstr ""
+
+msgid "Tuesdays"
+msgstr ""
+
+msgid "Wednesdays"
+msgstr ""
+
+msgid "Thursdays"
+msgstr ""
+
+msgid "Fridays"
+msgstr ""
+
+msgid "Saturdays"
+msgstr ""
+
+msgid "Edit"
+msgstr "Wijzigen"
+
+msgid "sent an attachment"
+msgstr ""
+
+msgid "Call Back"
+msgstr ""
+
+msgid "Calendar Aware enables Quiet Time automatically during calendar events."
+msgstr ""
+
+msgid "Press and hold the Back button from a notification to turn Quiet Time on or off."
+msgstr ""
+
+msgid "Start Quiet Time?"
+msgstr ""
+
+msgid "End Quiet Time?"
+msgstr ""
+
+msgid "Quiet Time\n"
+"Started"
+msgstr ""
+
+msgid "Quiet Time\n"
+"Ended"
+msgstr ""
+
+msgid " - "
+msgstr ""
+
+msgid "All Day"
+msgstr ""
+
+msgid "Recurring"
+msgstr ""
+
+msgid "STARTS "
+msgstr ""
+
+msgid "Broadcaster"
+msgstr ""
+
+msgid "Can't connect. Relaunch Pebble Time app on phone."
+msgstr ""
+
+msgid "Removed"
+msgstr ""
+
+msgid "Dismissed"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+msgid "Thanks!"
+msgstr ""
+
+msgid "Calendar"
+msgstr ""
+
+msgid "Reminders"
+msgstr ""
+
+msgid "Intercom"
+msgstr ""
+
+msgid "Quickly dismiss all notifications by holding the Select button for 2 seconds from any incoming notification."
+msgstr ""
+
+msgid "Ok"
+msgstr ""
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nee"
+
+msgid "Call me"
+msgstr "Bel me"
+
+msgid "Call you later"
+msgstr "Bel je later"
+
+msgid "Reply with Voice"
+msgstr ""
+
+msgid "Voice"
+msgstr ""
+
+msgid "Canned messages"
+msgstr ""
+
+msgid "Emoji"
+msgstr ""
+
+msgid "In 15 minutes"
+msgstr ""
+
+msgid "Later today"
+msgstr ""
+
+msgid "Last updated"
+msgstr ""
+
+msgid "Standard - Medium"
+msgstr ""
+
+msgid "Jan"
+msgstr "jan"
+
+msgid "Feb"
+msgstr "feb"
+
+msgid "Mar"
+msgstr "mrt"
+
+msgid "Apr"
+msgstr "apr"
+
+msgid "May"
+msgstr "mei"
+
+msgid "Jun"
+msgstr "jun"
+
+msgid "Jul"
+msgstr "jul"
+
+msgid "Aug"
+msgstr "aug"
+
+msgid "Sep"
+msgstr "sep"
+
+msgid "Oct"
+msgstr "okt"
+
+msgid "Nov"
+msgstr "nov"
+
+msgid "Dec"
+msgstr "dec"
+
+msgid "January"
+msgstr "januari"
+
+msgid "February"
+msgstr "februari"
+
+msgid "March"
+msgstr "maart"
+
+msgid "April"
+msgstr "april"
+
+msgid "June"
+msgstr "juni"
+
+msgid "July"
+msgstr "juli"
+
+msgid "August"
+msgstr "augustus"
+
+msgid "September"
+msgstr "september"
+
+msgid "October"
+msgstr "oktober"
+
+msgid "November"
+msgstr "november"
+
+msgid "December"
+msgstr "december"
+
+msgid "Sunday"
+msgstr "zondag"
+
+msgid "Monday"
+msgstr "maandag"
+
+msgid "Tuesday"
+msgstr "dinsdag"
+
+msgid "Wednesday"
+msgstr "woensdag"
+
+msgid "Thursday"
+msgstr "donderdag"
+
+msgid "Friday"
+msgstr "vrijdag"
+
+msgid "Saturday"
+msgstr "zaterdag"
+
+msgid "%H:%M:%S"
+msgstr ""
+
+msgid "%m/%d/%y"
+msgstr "%d/%m/%y"
+
+msgid "%a %b %e %H:%M:%S %Y"
+msgstr ""
+
+msgid "%I:%M:%S %p"
+msgstr ""
+
+msgid "AM"
+msgstr ""
+
+msgid "PM"
+msgstr ""
+
+msgid "am"
+msgstr ""
+
+msgid "pm"
+msgstr ""
+
+msgctxt "TmplStringSep"
+msgid ":"
+msgstr ""
+
+msgctxt "TmplStringSep"
+msgid " "
+msgstr ""
+
+msgctxt "TmplStringSep"
+msgid ", "
+msgstr ""
+
+msgctxt "TmplStringSep"
+msgid ", and "
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid ""
+msgstr ""
+""
+
+msgctxt "TmplStringPlur"
+msgid ""
+msgstr ""
+""
+
+msgctxt "TmplStringSing"
+msgid " sec"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " sec"
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid " second"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " seconds"
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid " min"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " min"
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid " minute"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " minutes"
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid " hr"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " hr"
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid " hour"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " hours"
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid " d"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " d"
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid " day"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " days"
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid " mo"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " mo"
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid " month"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " months"
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid " yr"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " yr"
+msgstr ""
+
+msgctxt "TmplStringSing"
+msgid " year"
+msgstr ""
+
+msgctxt "TmplStringPlur"
+msgid " years"
+msgstr ""
+
+msgid "Check bluetooth connection"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid "Dictation is not available."
+msgstr ""
+
+msgid "Error occurred. Try again."
+msgstr ""
+
+msgid "Turn on usage logs to use voice.\n\n"
+"On your phone, go to Settings in the Pebble Time app."
+msgstr ""
+
+msgid "Missed that. Try again."
+msgstr ""
+
+msgid "Listening"
+msgstr ""
+
+msgid "%a %b %e %H:%M:%S %Z %Y"
+msgstr ""
+
+msgid "md"
+msgstr "dm"
+
+msgid "Year"
+msgstr "Jaar"
+
+msgid "Month"
+msgstr "Maand"
+
+msgid "Day"
+msgstr "Dag"
+
+msgid "Edit Alarm"
+msgstr "Wekker wijzigen"
+
+msgid "Options"
+msgstr "Opties"
+
+msgid "Updating..."
+msgstr "Installeren..."
+
+msgid "Firmware Update"
+msgstr "Firmware-update"
+
+msgid "Cancel Update?"
+msgstr "Update annuleren?"
+
+msgid "Cancel\n"
+"Update?"
+msgstr "Update\n"
+"annuleren?"
+
+msgid "Install Pebble App"
+msgstr "Installeer Pebble-app"
+
+msgid "Getting Started"
+msgstr "Aan de slag"
+
+msgid "Hole"
+msgstr ""
+
+msgid "Par"
+msgstr ""
+
+msgid "Golf"
+msgstr ""
+
+msgid "No Phone Connection"
+msgstr "Geen verbinding"
+
+msgid "No Music Found"
+msgstr "Geen muziek"
+
+msgid "No notifications."
+msgstr "Geen notificaties"
+
+msgid "Panic App"
+msgstr ""
+
+msgid "Activity"
+msgstr "Activiteit"
+
+msgid "About"
+msgstr "Over"
+
+msgid "Activity Tracker"
+msgstr "Activiteitsmeter"
+
+msgid "No Activity Trackers are installed"
+msgstr "Geen activiteitsmeters geïnstalleerd"
+
+msgid "<Unknown>"
+msgstr "<Niet bekend>"
+
+msgid "%u Paired Phone%c"
+msgstr "%u telefoon%c gekoppeld"
+
+msgid "Bluetooth OFF"
+msgstr "Bluetooth uit"
+
+msgid "Bluetooth ON"
+msgstr "Bluetooth aan"
+
+msgid "Disable Airplane Mode to connect"
+msgstr "Schakel vliegtuigmodus uit om te verbinden"
+
+msgid "Open the Pebble app on your phone to connect"
+msgstr "Open Pebble-app op telefoon om te verbinden"
+
+msgid "Clear all notification history?"
+msgstr "Notificatie geschiedenis wissen?"
+
+msgid "Auto"
+msgstr ""
+
+msgid "Ambient Controlled"
+msgstr "Pas automatisch aan"
+
+msgid "Motion"
+msgstr "Beweging"
+
+msgid "Shake to light"
+msgstr "Schud voor licht"
+
+msgid "Reset to factory settings?"
+msgstr "Instellingen herstellen?"
+
+msgid "Notifications On"
+msgstr "Notificaties aan"
+
+msgid "Texts Only"
+msgstr "Alleen SMS"
+
+msgid "Phone Calls Only"
+msgstr "Alleen oproepen"
+
+msgid "Apps Only"
+msgstr "Alleen apps"
+
+msgid "Notifications Off"
+msgstr "Notificaties uit"
+
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+msgid "Set Schedule"
+msgstr "Tijd instellen"
+
+msgid "Font Size"
+msgstr "Lettergrootte"
+
+msgid "Small"
+msgstr "Klein"
+
+msgid "Large"
+msgstr "Groot"
+
+msgid "Clear History"
+msgstr "Wis geschiedenis"
+
+msgid "Do Not Disturb"
+msgstr "Niet storen"
+
+msgid "Select an App"
+msgstr "Selecteer app"
+
+msgid "Set App"
+msgstr "App instellen"
+
+msgid "Set Now"
+msgstr "Nu Instellen"
+
+msgid "UP shortcut set"
+msgstr "Snelkoppeling"
+
+msgid "DOWN shortcut set"
+msgstr "Snelkoppeling"
+
+msgid "UP shortcut disabled"
+msgstr "Snelkoppeling voor \"omhoog\" uit"
+
+msgid "DOWN shortcut disabled"
+msgstr "Snelkoppeling voor \"omlaag\" uit"
+
+msgid "This shortcut can be enabled from the settings menu"
+msgstr "Stel snelkoppeling in vanuit \"Instellingen\""
+
+msgid "Shortcut not set"
+msgstr "Geen snelkoppeling"
+
+msgid "Would you like to set the UP shortcut?"
+msgstr "Omhoog-knop instellen?"
+
+msgid "Would you like to set the DOWN shortcut?"
+msgstr "Omlaag-knop instellen?"
+
+msgid "Long press %s from any watchface to open %s"
+msgstr "Druk %s lang in om vanuit wijzerplaat %s te openen"
+
+msgid "UP"
+msgstr "OMHOOG"
+
+msgid "DOWN"
+msgstr "OMLAAG"
+
+msgid "Set Time"
+msgstr "Tijd instellen"
+
+msgid "Set Date"
+msgstr "Datum instellen"
+
+msgid "Time Display"
+msgstr "Tijdweergave"
+
+msgid "mi/h"
+msgstr ""
+
+msgid "km/h"
+msgstr ""
+
+msgid "min/mi"
+msgstr ""
+
+msgid "min/km"
+msgstr ""
+
+msgid "mi"
+msgstr ""
+
+msgid "km"
+msgstr ""
+
+msgid "Selected"
+msgstr "Geselecteerd"
+
+msgid "You just updated your Pebble to version %s!"
+msgstr "Je hebt je Pebble bijgewerkt naar versie %s!"
+
+msgid "Your Pebble is up to date!"
+msgstr "Je Pebble is up-to-date!"
+
+msgid "Welcome!"
+msgstr "Welkom!"
+
+msgid "Welcome UI"
+msgstr "Welkom"
+
+msgid "Simplicity"
+msgstr ""
+
+msgid "Last Warning"
+msgstr "Laatste waarschuwing"
+
+msgid "%d%% remaining"
+msgstr "%d%% resterend"
+
+msgid "Battery Low"
+msgstr "Batterij leeg"
+
+msgid "Just now"
+msgstr "Zojuist"
+
+msgid "A minute ago"
+msgstr "Een minuut geleden"
+
+msgid "No Caller ID"
+msgstr "Onbekend nummer"
+
+msgid "Declining Call"
+msgstr "Weigeren..."
+
+msgid "Canceling Call"
+msgstr "Annuleren..."
+
+msgid "Incoming Call"
+msgstr "Inkomend gesprek"
+
+msgid "Calling..."
+msgstr "Bellen..."
+
+msgid "Missed Call"
+msgstr "Gemist gesprek"
+
+msgid "Ringing..."
+msgstr "Gaat over..."
+
+msgid "%A %b %d"
+msgstr "%A %d %b"
+
+msgid "Classic Analog"
+msgstr ""
+
+msgid "Worker"
+msgstr "Werker"
+
+msgid "App"
+msgstr ""
+
+msgid "%s crashed!\n"
+"%.20s"
+msgstr "%s gecrasht!\n"
+"%.20s"
+
+msgid "Press any button"
+msgstr "Druk een knop"
+
+msgid "%d minute(s)"
+msgstr "%d min."
+
+msgid "Use %s instead of %s for activity tracking?"
+msgstr "Activiteitsmeter %s gebruiken in plaats van %s?"
+
 msgid "Pair with %s?"
 msgstr "Koppelen met %s?"
 
 msgid "Ready for Update"
 msgstr "Klaar voor update"
 
-#: /Users/francois/Work/tintin/src/fw/apps/system_apps/settings/settings_display.c:100
 msgid "UI"
 msgstr "Gebruikersinterface"
 
-#: /Users/francois/Work/tintin/src/fw/popups/crashed_ui.c:69
 msgid "OH NO!"
 msgstr "OH NEE!"
 
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_layer.c:204
 msgid "%b %d, %R"
 msgstr "%d %b, %R"
 
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_layer.c:206
 msgid "%b %d, %I:%M %p"
 msgstr "%d %b, %I:%M %p"
 
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_window.c:771
 msgid "Use templates..."
 msgstr "Stuur tekst..."
 
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_window.c:926
-msgid "Ok"
-msgstr "Ok"
-
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_window.c:927
-msgid "Yes"
-msgstr "Ja"
-
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_window.c:928
-msgid "No"
-msgstr "Nee"
-
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_window.c:929
-msgid "Call me"
-msgstr "Bel me"
-
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_window.c:930
-msgid "Call you later"
-msgstr "Bel je later"
-
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_window.c:1004
 msgid "More..."
 msgstr "Meer..."
 
-#: /Users/francois/Work/tintin/src/fw/popups/notifications/notification_window.c:1269
-msgid "Failed"
-msgstr "Mislukt"
+msgid "Progress UI"
+msgstr ""
+
+msgid "ACTIVITY"
+msgstr ""
+
+msgid "BLUETOOTH"
+msgstr ""
+
+msgid "DISPLAY"
+msgstr ""
+
+msgid "NOTIFICATIONS"
+msgstr ""
+
+msgid "QUICK LAUNCH"
+msgstr ""
+
+msgid "FCC"
+msgstr ""
+
+msgid "Canada IC"
+msgstr ""
+
+msgid "China SRRC"
+msgstr ""
+
+msgid "Taiwan NCC"
+msgstr ""
+
+msgid "CMIIT ID"
+msgstr ""
+
+msgid "South Korea KCC"
+msgstr ""
+
+msgid "RGQ-501"
+msgstr ""
+
+msgid "10805A-501"
+msgstr ""
+
+msgid "XXXXYYZZZZ"
+msgstr ""
+
+msgid "CCAIYYDDSSSSLN"
+msgstr ""
+
+msgid "2015DJ1504"
+msgstr ""
+
+msgid "SYSTEM"
+msgstr ""
+
+msgid "DATE & TIME"
+msgstr ""
+
+msgid "TicToc"
+msgstr ""
+
+msgid "%d%% Battery"
+msgstr ""
+
+msgid "Do Not Disturb Enabled"
+msgstr ""
+
+msgid "Do Not Disturb Disabled"
+msgstr ""
+
+msgid "Manual DND"
+msgstr ""
+
+msgid "Scheduled DND"
+msgstr ""
+
+msgid "DND Mute Options"
+msgstr ""
+
+msgid "Mute All"
+msgstr ""
+
+msgid "Set the UP shortcut?"
+msgstr ""
+
+msgid "Long press %s from any watchface to open %s."
+msgstr ""
+
+msgid "The core dump was created automatically. Please create a support request as usual."
+msgstr ""
+
+msgid "12 hour format"
+msgstr ""
+
+msgid "24 hour format"
+msgstr ""
+
+msgid "selected"
+msgstr ""
+
+msgid "No activities"
+msgstr ""
+
+msgid "Voice reply is not available."
+msgstr ""
+
+msgid "Check phone internet connection"
+msgstr ""
+
+msgid "Stationary Mode"
+msgstr ""
+
+msgid "Welcome Back"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "While your pebble was off wakeup events occurred for:\n"
+msgstr ""
+
+msgid "Quiet Time Enabled"
+msgstr ""
+
+msgid "Quiet Time Disabled"
+msgstr ""
+
+msgid "Select now"
+msgstr ""
+
+msgid "Set the DOWN shortcut?"
+msgstr ""
+
+msgid "Quick"
+msgstr ""
+
+msgid "Timeline Aware"
+msgstr ""
+
+msgid "Scheduled"
+msgstr ""
+
+msgid "QUIET TIME"
+msgstr ""
+
+msgid "%s selected"
+msgstr ""
+
+msgid "Quiet Time On"
+msgstr ""
+
+msgid "Quiet Time Off"
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Turn Off Quiet Time"
+msgstr ""
+
+msgid "Turn On Quiet Time"
+msgstr ""
+
+msgid "%b %e, %Y"
+msgstr ""
+
+msgid "Timeline Aware Quiet Time enables automatic Quiet Times during calendar events"
+msgstr ""
+
+msgid "Did you know you can toggle Quiet Time by holding the Back button from a notification or the watchface?"
+msgstr ""
+
+msgid "Press and hold the Back button from the watchface or a notification to turn Quiet Time on or off."
+msgstr ""
+
+msgid "TEXT SIZE"
+msgstr ""
+
+msgid "New language: %s"
+msgstr ""
+
+msgid "FILTER"
+msgstr ""
+
+msgid "VIBRATION"
+msgstr ""
+
+msgid "TIMEZONE"
+msgstr ""
+
+msgid "This app is not compatible with your Pebble."
+msgstr ""
+
+msgid "Long press %s from watchface to open %s."
+msgstr ""
+
+msgid "Select to confirm"
+msgstr ""
+
+msgid "Meh"
+msgstr ""
+
+msgid "You had a good night, feel the energy!"
+msgstr ""
+
+msgid "Try to watch what you eat today, as being tired can cause added sugar craving."
+msgstr ""
+
+msgid "ON AVERAGE"
+msgstr ""
+
+msgid "More Info"
+msgstr ""
+
+msgid "Pebble Health tracks your steps and sleep, have you checked it out?"
+msgstr ""
+
+msgid "A good night's sleep makes for a more productive day. Have you seen progress?"
+msgstr ""
+
+msgid "Are you enjoying Pebble Health and it's insights?"
+msgstr ""
+
+msgid "It's great!!"
+msgstr ""
+
+msgid "Health what?"
+msgstr ""
+
+msgid "Meh..."
+msgstr ""
+
+msgid "Saved"
+msgstr ""
+
+msgid "Weekly Steps"
+msgstr ""
+
+msgid " Avg. "
+msgstr ""
+
+msgid "%d.%dMI"
+msgstr ""
+
+msgid "AVG %d"
+msgstr ""
+
+msgid "Calories"
+msgstr ""
+
+msgid "Time Active"
+msgstr ""
+
+msgid "Weekly Sleep"
+msgstr ""
+
+msgid "AVG "
+msgstr ""
+
+msgid "Sleep"
+msgstr ""
+
+msgid "Wake up"
+msgstr ""
+
+msgid "Deep Sleep"
+msgstr ""
+
+msgid "You had a good night! Feel the energy :)"
+msgstr ""
+
+msgid "Pebble Health tracks your steps and sleep... check it out!"
+msgstr ""
+
+msgid "A good night's sleep makes for a more productive day. How are you doing?"
+msgstr ""
+
+msgid "Are you enjoying Pebble Health and Insights?"
+msgstr ""
+
+msgid "Powered till %s"
+msgstr ""
+
+msgid "TYPICAL %d"
+msgstr ""
+
+msgid "Steps Now"
+msgstr ""
+
+msgid "BACKGROUND APP"
+msgstr ""
+
+msgid "%.*s %s"
+msgstr ""
+
+msgid "\n"
+"\"%s\""
+msgstr ""
+
+msgid "\""
+msgstr ""
+
+msgid "Can't connect. Open mobile app on phone."
+msgstr ""
+
+msgid "You walked %d steps today! Check out your daily activity progress."
+msgstr ""
+
+msgid "VIBRATIONS"
+msgstr ""
+
+msgid "run"
+msgstr ""
+
+msgid "walk"
+msgstr ""
+
+msgid " Mile"
+msgstr ""
+
+msgid "Good Morning! See how you slept last night"
+msgstr ""
+
+msgid "Great %d minute walk! You're making strides towards a healthier life."
+msgstr ""
+
+msgid "What a run! See how this measures against your week."
+msgstr ""
+
+msgid " Miles"
+msgstr ""
+
+msgid "Run duration"
+msgstr ""
+
+msgid "Walk duration"
+msgstr ""
+
+msgid "Calories burned"
+msgstr ""
+
+msgid "Pace"
+msgstr ""
+
+msgid "NAP "
+msgstr ""
+
+msgid "Oops!\n"
+"No sleep data"
+msgstr ""
+
+msgid "Try wearing your watch to sleep"
+msgstr ""
+
+msgid "Nap"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Revelry"
+msgstr ""
+
+msgid "Mario"
+msgstr ""
+
+msgid "%d.%d Mile run"
+msgstr ""
+
+msgid "%d.%dKM run"
+msgstr ""
+
+msgid "%d Min walk"
+msgstr ""
+
+msgid "You've walked %d steps so far today! Check out your daily activity progress."
+msgstr ""
+
+msgid "%d.%d Miles"
+msgstr ""
+
+msgid "%d.%dKM"
+msgstr ""
+
+msgctxt "NotifVibe"
+msgid "Enabled"
+msgstr ""
+
+msgid "Regular Alarm"
+msgstr ""
+
+msgid "New and improved Health Graphs are now on your phone! Find them in the Pebble app under the health tab."
+msgstr ""
+
+msgid "You had a good night! Feel the energy "
+msgstr ""
+
+msgid "%d.%d miles"
+msgstr ""
+
+msgid "%d.%d km"
+msgstr ""
+
+msgid "Killer job! You've walked %d steps today which is %d%% above your average. Try to do it again tomorrow, champ."
+msgstr ""
+
+msgid "Nice moves! You've walked %d steps today which is %d%% above your average. Give yourself a pat on the back and crush it again tomorrow."
+msgstr ""
+
+msgid "Good job! You're being consistent with your activity. You walked %d steps today–do it again tomorrow."
+msgstr ""
+
+msgid "Hey you. You walked %d steps today which is %d%% below your average. Try to be more active tomorrow, you can do it!"
+msgstr ""
+
+msgid "Today wasn't your most active day. You walked %d steps today which is %d%% below your average. Being active makes you feel amaaaazing–try to get back on track tomorrow."
+msgstr ""
+
+msgid "Refreshed? You slept for %dH %dM which is %+d%% compared to your average. Go tackle your day "
+msgstr ""
+
+msgid "You caught some killer zzz’s! You slept for %dH %dM which is %+d%% compared to your average. Keep it up!"
+msgstr ""
+
+msgid "Good mornin’. Way to keep it consistent! You slept for %dH %dM. Every day begins with sleep. Keep it strong "
+msgstr ""
+
+msgid "Good morning’! You slept for %dH %dM. Consistency is key; keep it up "
+msgstr ""
+
+msgid "Hey sleepy head. You got less sleep than usual. You slept for %dH %dM which is %+d%% compared to your average. Try to get more tonight!"
+msgstr ""
+
+msgid "Groggy? You slept for %dH %dM which is %+d%% compared to your average. Sleep is important for everything you do, so try getting more shut eye tonight!"
+msgstr ""
+
+msgid "Hey lighting bolt, you just a ran for %d minutes at a %d minutes per %s pace. You keep this up and there'll be nothing you can’t do!"
+msgstr ""
+
+msgid "mile"
+msgstr ""
+
+msgid "kilometer"
+msgstr ""
+
+msgid "Didn’t that walk feel good? You walked for %d minutes and burned %d calories. You’re a walking machine!"
+msgstr ""
+
+msgid "Stuck inside today? You walked %d steps which is %d%% below your average. Being active makes you feel amaaaazing–try to get back on track tomorrow."
+msgstr ""
+
+msgid "Refreshed? You slept for %dH %dM which is %d%% above your average. Go tackle your day 😃."
+msgstr ""
+
+msgid "You caught some killer zzz’s! You slept for %dH %dM which is %d%% above your average. Keep it up."
+msgstr ""
+
+msgid "Good mornin’. You slept for %dH %dM. Way to keep it consistent! Every day begins with sleep. Keep it strong 😃."
+msgstr ""
+
+msgid "Hey sleepy head. You slept for %dH %dM which is %d%% below your average. Try to get more tonight!"
+msgstr ""
+
+msgid "Groggy? You slept for %dH %dM which is %d%% below your average. Sleep is important for everything you do-try getting more shut eye tonight!"
+msgstr ""
+
+msgid "Hey lightning bolt, you just ran for %d minutes at a %d minutes per %s pace. You keep this up and there'll be nothing you can’t do!"
+msgstr ""
+
+msgid "%i° %s"
+msgstr ""
+
+msgid "Hey rockstar 🎤 You've walked %d steps today which is %d%% above your average. Nothing can stop you!"
+msgstr ""
+
+msgid "We can barely keep up! You walked %d steps today which is %d%% above your average. You're on 🔥"
+msgstr ""
+
+msgid "In the battle of you vs. you, YOU are the winner. You walked %d steps today which is %d%% above your average. Mic drop."
+msgstr ""
+
+msgid "You walked %d steps today which is %d%% below your average. But hey, everyone deserves a break. There's always tomorrow 😃"
+msgstr ""
+
+msgid "You walked %d steps which is %d%% below your average, but don't stress. You'll crush it tomorrow 😉"
+msgstr ""
+
+msgid "Not having the best day? We get it. You walked %d steps today. Don't fret; you can get back on track in no time 😃"
+msgstr ""
+
+msgid "Hey bud. You only walked %d steps today but everyone deserves a rest. Good news is the sky's the limit!"
+msgstr ""
+
+msgid "Having a sitting day? We can tell 😃 –you only walked %d steps today. It's not your most active, but get pumped to beat your average tomorrow!"
+msgstr ""
+
+msgid "Rise and shine! You slept for %dH %dM which is %d%% above your average. Do it again tonight, sleep master."
+msgstr ""
+
+msgid "Mmmm...what a night. You slept for %dH %dM which is %d%% above your average. That's gotta feel good!"
+msgstr ""
+
+msgid "That's a lot of sheep you just counted! You slept for %dH %dM which is %d%% above your average. Boom shakalaka."
+msgstr ""
+
+msgid "It's a new day! You slept for %dH %dM which is %d%% below your average. It's not your best, but there's always tonight."
+msgstr ""
+
+msgid "Goooood morning! You slept for %dH %dM which is %d%% below your average. Go crush your day and then get back in bed 😉"
+msgstr ""
+
+msgid "Feeling tired? You only slept for %dH %dM which is %d%% below your average. Sleep is vital for all your great ideas – how 'bout getting more tonight?"
+msgstr ""
+
+msgid "You only slept for %dH %dM which is %d%% below your average. We know you're busy, but try getting more tonight. We believe in you 😉"
+msgstr ""
+
+msgid "Looks like you didn't get enough sleep, pal 😟 You only slept for %dH %dM which is %d%% below your average. We know stuff happens. Take another crack at it tonight."
+msgstr ""
+
+msgid "Hey lightning bolt, you just ran for %d minutes at a %d:%02d per %s pace. You keep this up and there'll be nothing you can’t do!"
+msgstr ""
+
+msgid "Feelin' hot? Cause you're on 🔥! You just ran for %d minutes at a %d:%02d per %s pace."
+msgstr ""
+
+msgid "Hey speedster, you just ran for %d minutes at a %d:%02d per %s pace. Keep showing us what you're made of 👊"
+msgstr ""
+
+msgid "You got the moves! You walked for %d minutes and burned %d calories. We're super impressed; keep it up 😃"
+msgstr ""
+
+msgid "Enjoying the great outdoors? You walked for %d minutes and burned %d calories. Way to keep moving!"
+msgstr ""
+
+msgid "TYPICAL %s\n"
+"%d"
+msgstr ""
+
+msgid "TYPICAL %s\n"
+msgstr ""
+
+msgid "Window Timeout"
+msgstr ""
+
