@@ -12,6 +12,7 @@ on:
       - 'platform/**'
       - 'resources/**'
       - '!resources/normal/base/lang/**/*.po' # Ignore changes in .po files
+      - '!resources/normal/base/lang/tintin.pot' # Ignore pot file as well
       - 'sdk/**'
       - 'src/**'
       - 'stored_apps/**'
