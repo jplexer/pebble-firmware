@@ -156,12 +156,13 @@ jobs:
         with:
           pattern: translation-template-asterix
           merge-multiple: true
-          path: .
+          path: ./resources/normal/base/lang/
 
       - name: Setup Crowdin
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
+          upload_translations: true
           push_translations: true
           download_translations: true
           create_pull_request: true
