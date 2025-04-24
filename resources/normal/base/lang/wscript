@@ -1,4 +1,4 @@
-# Add tools directory to path
+# Add tools directory to path a
 import sys
 sys.path.append('../../../tools')
 

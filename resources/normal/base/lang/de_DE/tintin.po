@@ -20,7 +20,7 @@ msgstr ""
 #: ../src/fw/process_management/app_manager.c:494
 #, c-format
 msgid "%.*s is not responding"
-msgstr "%.*s antwortet nich"
+msgstr "%.*s antwortet nicht"
 
 #: ../src/fw/process_management/process_manager.c:222
 msgid "This app requires a newer version of the Pebble firmware."
