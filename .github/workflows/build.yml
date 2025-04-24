@@ -3,12 +3,15 @@ name: Build
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'resources/normal/base/lang/**/*.po'
   pull_request:
     branches: [main]
     paths:
       - '.github/workflows/build.yml'
       - 'platform/**'
       - 'resources/**'
+      - '!resources/normal/base/lang/**/*.po' # Ignore changes in .po files
       - 'sdk/**'
       - 'src/**'
       - 'stored_apps/**'
@@ -17,6 +20,7 @@ on:
       - 'waftools/**'
       - 'waf'
       - 'wscript'
+    
 
 env:
   ARM_GNU_TOOLCHAIN_VERSION: 14.2.rel1
@@ -127,3 +131,29 @@ jobs:
           path: |
             build/qemu_micro_flash.bin
             build/qemu_spi_flash.bin
+
+  crowdin_sync:
+    runs-on: ubuntu-24.04
+    needs: build
+    if: ${{ github.event_name == 'push' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Crowdin
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: true
+          push_translations: true
+          localization_branch_name: l10n_crowdin_translations
+          create_pull_request: true
+          pull_request_title: 'New Crowdin Translations'
+          pull_request_body: 'New Crowdin translations by [Crowdin GH Action](https://github.com/crowdin/github-action)'
+          pull_request_base_branch_name: 'main'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
