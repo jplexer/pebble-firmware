@@ -3,12 +3,15 @@ name: Build
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'resources/normal/base/lang/**/*.po'
   pull_request:
     branches: [main]
     paths:
       - '.github/workflows/build.yml'
       - 'platform/**'
       - 'resources/**'
+      - '!resources/normal/base/lang/**/*.po' # Ignore changes in .po files
       - 'sdk/**'
       - 'src/**'
       - 'stored_apps/**'
@@ -17,6 +20,7 @@ on:
       - 'waftools/**'
       - 'waf'
       - 'wscript'
+    
 
 env:
   ARM_GNU_TOOLCHAIN_VERSION: 14.2.rel1
@@ -127,3 +131,42 @@ jobs:
           path: |
             build/qemu_micro_flash.bin
             build/qemu_spi_flash.bin
+      - name: Upload POT template
+        if: ${{ matrix.board == 'asterix' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-template-${{ matrix.board }}
+          path: build/src/fw/tintin.pot
+          if-no-files-found: error
+          retention-days: 1
+      
+
+  crowdin_sync:
+    runs-on: ubuntu-24.04
+    needs: build
+    if: ${{ github.event_name == 'push' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          pattern: translation-template-asterix
+          merge-multiple: true
+          path: .
+
+      - name: Setup Crowdin
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          push_translations: true
+          download_translations: true
+          create_pull_request: true
+          commit_message: 'chore: update translations from Crowdin'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
