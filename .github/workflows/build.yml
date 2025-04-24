@@ -165,7 +165,6 @@ jobs:
           upload_translations: true
           push_translations: true
           download_translations: true
-          create_pull_request: true
           commit_message: 'chore: update translations from Crowdin'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
