@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pblsos-jp-test-4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-24 13:14+0000\n"
-"PO-Revision-Date: 2025-04-24 14:45\n"
+"PO-Revision-Date: 2025-04-24 15:30\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -130,12 +130,12 @@ msgstr ""
 #: ../src/fw/shell/normal/battery_ui.c:64
 #: ../src/fw/shell/normal/shutdown_charging.c:102
 msgid "Fully Charged"
-msgstr ""
+msgstr "Volledig opgeladen"
 
 #: ../src/fw/shell/normal/battery_ui.c:70
 #: ../src/fw/shell/normal/shutdown_charging.c:107
 msgid "Charging"
-msgstr ""
+msgstr "Laden"
 
 #: ../src/fw/shell/normal/battery_ui.c:85
 #, c-format
