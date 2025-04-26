@@ -40,7 +40,7 @@ class binary_header(Task.Task):
         output += ['static const uint8_t %s[] = {' % array_name]
         line = []
         for n, b in enumerate(code):
-            line += ['0x%.2x,' % ord(b)]
+            line += ['0x%.2x,' % b]
             if n % 16 == 15:
                 output += [''.join(line)]
                 line = []

@@ -35,7 +35,7 @@ build_and_copy () {
   shift;
 
   for board in ${BOARDS[*]}; do
-    pypy ./waf configure --board=${board} $@ build --progress
+    ./waf configure --board=${board} $@ build --progress
     for ext in hex elf; do
       mv build/snowy_boot.${ext} \
         "${OUTDIR}/${variant}boot_${board}@${VERSION}.${ext}"

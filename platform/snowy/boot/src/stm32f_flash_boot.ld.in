@@ -84,6 +84,10 @@ SECTIONS
         *(.glue_7t)
         *(i.*)
 
+        KEEP (*(.init))
+        KEEP (*(.fini))
+        KEEP (*(.pbl_fw_version))
+
         . = ALIGN(4);
         _etext = .;
         _sidata = _etext;

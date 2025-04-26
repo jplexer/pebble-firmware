@@ -314,9 +314,9 @@ void boot_main(void) {
   dbgserial_putstr("                                           \\/__/");
 
   // PMIC requires I2C
-  i2c_init();
+  //i2c_init();
   // Enable the 3.2V rail for the benefit of the FPGA and display
-  pmic_init();
+  //pmic_init();
 
   boot_bit_init();
   boot_version_write();

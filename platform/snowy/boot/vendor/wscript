@@ -2,24 +2,38 @@ def configure(conf):
     conf.env.append_unique('DEFINES', 'STM32F429_439xx')
 
 def build(bld):
-    stm32_basedir = 'STM32F4xx_DSP_StdPeriph_Lib_V1.3.0/'
-    stm32_srcdirs = [stm32_basedir + subpath for subpath in (
-        '', 'Libraries/STM32F4xx_StdPeriph_Driver/src',
-        'Libraries/CMSIS/CM3/CoreSupport')]
-    stm32_sources = sum(
-        [bld.path.ant_glob('%s/*.c' % d, excl=['**/stm32f4xx_fsmc.c'])
-            for d in stm32_srcdirs], [])
+    # Define paths relative to the project root (assuming wscript is 4 levels down)
+    proj_root = bld.path.parent.parent.parent.parent
 
-    stm32_incpath_base = stm32_basedir + 'Libraries/'
-    stm32_includes = [ stm32_incpath_base + subpath for subpath in (
-        'CMSIS/Include', 'CMSIS/Device/ST/STM32F4xx/Include',
-        'STM32F4xx_StdPeriph_Driver/inc')]
+    hal_stm32_path = proj_root.find_node('third_party/hal_stm32/stm32-sdk')
+    cmsis_core_path = proj_root.find_node('third_party/cmsis_core/CMSIS/CMSIS/Core')
 
-    stm32_includes += ['stm32_conf']
+    # Check if paths were found
+    if not hal_stm32_path:
+        bld.fatal("Could not find third_party/hal_stm32/stm32-sdk")
+    if not cmsis_core_path:
+        bld.fatal("Could not find third_party/cmsis_core/CMSIS/CMSIS/Core")
+
+    # Source files: Only StdPeriph Driver sources seem needed now
+    stm32_srcdir = hal_stm32_path.find_node('STM32F4xx_StdPeriph_Driver/src')
+    if not stm32_srcdir:
+        bld.fatal("Could not find STM32F4xx_StdPeriph_Driver/src")
+
+    stm32_sources = stm32_srcdir.ant_glob('*.c', excl=['stm32f4xx_fsmc.c'])
+
+    # Include paths
+    stm32_includes = [
+        cmsis_core_path.find_node('Include'),
+        hal_stm32_path.find_node('Device/ST/STM32F4xx/Include'),
+        hal_stm32_path.find_node('STM32F4xx_StdPeriph_Driver/inc'),
+    ]
+
+    # Filter out None values in case some paths weren't found (though fatal checks handle this)
+    stm32_includes = [p for p in stm32_includes if p]
 
     bld.stlib(source=stm32_sources,
               target='stm32_stdlib',
-              includes=stm32_includes,
-              export_includes=stm32_includes)
+              includes=[p.path_from(bld.path) for p in stm32_includes], # Use relative paths for includes
+              export_includes=[p.path_from(bld.path) for p in stm32_includes]) # Use relative paths for export_includes
 
 # vim:filetype=python
