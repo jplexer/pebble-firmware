@@ -28,6 +28,9 @@ jobs:
 
     env:
       BOARD_NAME: "asterix"
+      CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+      CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     container:
       image: ghcr.io/pebble-dev/pebbleos-docker:v1
@@ -62,7 +65,3 @@ jobs:
           upload_sources: true
           upload_translations: true
           config: crowdin.yml
-        env:
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
