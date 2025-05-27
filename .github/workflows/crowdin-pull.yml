@@ -20,6 +20,7 @@ jobs:
           download_translations: true
           download_sources: true
           commit_message: 'resources: update translations from crowdin'
+          config: crowdin.yml
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}

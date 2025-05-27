@@ -23,6 +23,9 @@
 #include "services/imu/units.h"
 #include "util/size.h"
 
+#define BT_VENDOR_ID 0x0154
+#define BT_VENDOR_NAME "Pebble Technology"
+
 #define BOARD_LSE_MODE RCC_LSE_ON
 
 static const BoardConfig BOARD_CONFIG = {
